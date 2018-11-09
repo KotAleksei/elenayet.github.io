@@ -1,0 +1,135 @@
+/*Adaptive for phones viewport =< 480*/
+@media (max-width: 480px)
+{
+	.header {
+		display: none;
+	}
+
+	.menu_for_phones {
+		position: relative;
+		float: left;
+		display: block;
+		z-index: 3;
+		font-family: 'PT Sans', sans-serif;
+		font-size: 15px;
+	}
+
+	.header_backgr {
+		height: 200px;
+	}
+
+	.hide {
+		display: none;
+	}
+
+	.hide + label {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 120px;
+		height: 30px;
+		cursor: pointer;
+		text-align: center;
+		color: #fff;
+		background-color: rgb(18,50,62);
+		text-transform: uppercase;
+	}
+
+	.hide {
+		display: none;
+	}
+
+	.spisok_menu {
+		display: none;
+		color: #fff;
+		background-color: rgb(18,50,62);
+		text-transform: uppercase;
+		text-align: center;
+		margin: 0;
+	}
+
+	.spisok_menu a {
+		display: block;
+		text-decoration: none;
+		color: #fff;
+		padding: 5px 0;
+	}
+
+	.spisok_menu a:hover {
+		color: brown;
+	}
+
+	.hide:checked ~ .spisok_menu {
+		display: block;
+	}
+
+								/*Section 3*/
+	.few_sweat_photo {
+		flex-direction: column;
+		max-width: 320px;
+		text-align: center;
+		align-items: center;
+	}
+
+	.few_sweat_photo > div {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.travel .button {
+		margin-bottom: 30px;
+	}
+
+									/*Section 4*/
+	.support_inf {
+		max-width: 320px;
+		align-items: center;
+	}
+
+	.support_inf hr {
+		width: 300px;
+	}
+
+									/*Section 5*/
+	.photo_yet {
+		flex-direction: column;
+		align-items: center;
+		max-width: 320px;
+		text-align: center;
+	}
+
+	.photo_yet > div:not(:last-child) {
+		margin-bottom: 30px;
+	}
+
+										/*Section 8*/
+	.paparazzi {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.paparazzi div:first-child {
+		margin-bottom: 20px;
+	}
+
+	.section_partners_2 {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.section_partners_2 img:not(:last-child){
+		margin-bottom: 20px;
+	}
+
+	/*Section 9*/
+	.footer {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footer div:first-child {
+		margin-bottom: 10px;
+	}
+	
+}
